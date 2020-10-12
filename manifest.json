@@ -1,0 +1,18 @@
+{
+  "name": "zone-cours-data-collector",
+  "version": "1.0",
+  "description": "Easily export data from zone cours",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/",
+    "file:///C:/Dev/zonecoursdatacollector/*.html"
+  ],
+  "browser_action": {
+    "default_icon": "hec-logo.png",
+    "default_title": "Zone Cours Data Collector",
+    "default_popup": "browser-actions.html"
+  }
+}
