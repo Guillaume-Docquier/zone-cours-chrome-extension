@@ -1,5 +1,5 @@
 {
-  "name": "zone-cours-data-collector",
+  "name": "zone-cours-data-exporter",
   "version": "1.0",
   "description": "Easily export data from zone cours",
   "manifest_version": 2,
@@ -12,7 +12,12 @@
   ],
   "browser_action": {
     "default_icon": "hec-logo.png",
-    "default_title": "Zone Cours Data Collector",
+    "default_title": "Zone Cours Data Exporter",
     "default_popup": "browser-actions.html"
+  },
+  "icons": {
+    "16": "hec-logo.png",
+    "48": "hec-logo.png",
+   "128": "hec-logo.png"
   }
 }
